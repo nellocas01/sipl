@@ -7,5 +7,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @Builder
-public class Resource {
+public class ProductResource {
+    private Integer id;
+    private String name;
 }
